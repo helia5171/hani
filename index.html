@@ -5,6 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>♡ تولد هانی جان ♡</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* اضافه کردن استایل برای کوچک‌تر کردن عکس کیک */
+    .cake-main {
+      max-width: 250px !important;
+      width: 100% !important;
+      height: auto !important;
+      border-radius: 20px !important;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.2) !important;
+      cursor: pointer !important;
+      transition: transform 0.3s ease !important;
+      display: block !important;
+      margin: 0 auto !important;
+    }
+
+    .cake-main:hover {
+      transform: scale(1.03) !important;
+    }
+
+    .cake-stage {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: 20px !important;
+      padding: 10px !important;
+    }
+
+    .gift-cake {
+      max-width: 120px !important;
+      width: 100% !important;
+      height: auto !important;
+      border-radius: 16px !important;
+      object-fit: cover !important;
+    }
+
+    .gift-art {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+
+    .note-cake {
+      font-size: 1rem !important;
+      color: #555 !important;
+      text-align: center !important;
+      margin: 10px 0 !important;
+    }
+  </style>
 </head>
 
 <body>
@@ -109,7 +157,7 @@
           >
         </div>
 
-        <p class="note-cake">روی کیک بزن تا سورپرایزت رو ببینی 🎂✨</p>
+        <p class="note-cake">🎂 روی کیک بزن تا سورپرایزت رو ببینی ✨</p>
 
         <button class="cake-hit" id="cakeHit">🍰</button>
         <button class="text-back" data-go="0">GO BACK</button>
